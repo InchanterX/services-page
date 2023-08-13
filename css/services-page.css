@@ -1,0 +1,173 @@
+.row {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.head {
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #fff;
+    padding         : 5px 0;
+}
+
+.logo {
+    width         : 25%;
+    height        : 20%;
+    vertical-align: middle;
+    margin-top    : auto;
+    margin-bottom : auto;
+}
+
+.names {
+    align-items: center;
+}
+
+.name {
+    font-size    : 37px;
+    margin-top   : auto;
+    margin-bottom: auto;
+}
+
+.subname {
+    margin-left  : 5px;
+    margin-top   : 67px;
+    font-size    : 14px;
+    margin-top   : auto;
+    margin-bottom: auto;
+}
+
+.navigation {
+    margin-left: 20px;
+    font-size  : 20px;
+}
+
+.pointer {
+    font-size: 20px;
+    color    : #53B495;
+}
+
+.home {
+    color: #53B495;
+}
+
+.text-head {
+    font-size    : 55px;
+    color        : #333;
+    margin-bottom: 30px;
+}
+
+.text-discription {
+    font-size    : 26px;
+    color        : #1d9d73;
+    margin-bottom: 25px;
+}
+
+.text-text {
+    font-size: 18px;
+    color    : #888;
+}
+
+.services-description {
+    font-size: 26px;
+    color    : #333;
+}
+
+.services-text {
+    font-size: 14px;
+    color    : #888;
+}
+
+.services {
+    text-align: center;
+}
+
+.container,
+.header,
+.footer {
+    margin-right: 20px;
+    margin-left : 20px;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.list-item {
+    margin-right : 50px;
+    width        : calc(80% / 3 - 50px);
+    margin-bottom: 60px;
+}
+
+.services {
+    width          : 65%;
+    /* margin-left : auto;
+    margin-right   : auto; */
+}
+
+.services-description {
+    margin-top   : 15px;
+    margin-bottom: 15px;
+}
+
+.container {
+    justify-content: center;
+}
+
+.services-list {
+    justify-content: center;
+}
+
+.how-we-work-head {
+    font-size    : 55px;
+    color        : #fff;
+    text-align   : center;
+    margin-bottom: 60px;
+}
+
+.how-we-work-discription {
+    font-size  : 25px;
+    color      : #1d9d73;
+    margin-left: 10px;
+}
+
+.how-we-work-text {
+    font-size    : 14px;
+    color        : #888;
+    margin-top   : 20px;
+    margin-bottom: 40px;
+}
+
+.mark-texts-1 {
+    width       : calc(80% / 2 - 30px);
+    margin-right: 30px;
+}
+
+.mark-texts-2 {
+    width      : calc(80% / 2 - 30px);
+    margin-left: 30px;
+}
+
+.picture-background {
+    background-image: url(../imgs/services-page.png);
+    margin-left     : 0px;
+    margin-right    : 0px;
+    padding-top     : 100px;
+    padding-bottom  : 60px;
+}
+
+.container-how-we-work {
+    display        : flex;
+    justify-content: center;
+}
