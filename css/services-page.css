@@ -155,7 +155,7 @@ body {
 }
 
 .mark-texts-2 {
-    width      : calc(80% / 2 - 30px);
+    width      : calc(70% / 2 - 30px);
     margin-left: 30px;
 }
 
@@ -170,4 +170,77 @@ body {
 .container-how-we-work {
     display        : flex;
     justify-content: center;
+}
+
+.text-head {
+    text-align: center;
+}
+
+.person-text {
+    font-size    : 14px;
+    color        : #888;
+    margin-bottom: 16px;
+}
+
+.person-text::before {
+    content     : url(../imgs/quotes.png);
+    margin-right: 10px;
+}
+
+.persom-name {
+    font-size: 20px;
+    color    : #333;
+}
+
+.person-job {
+    font-size: 15px;
+    color    : #1FA87A;
+}
+
+.tester-block {
+    margin-right : 30px;
+    width        : calc(80% / 3 - 30px);
+    margin-bottom: 75px;
+}
+
+.testers {
+    justify-content: center;
+}
+
+html {
+    line-height: 1.75;
+}
+
+.check {
+    width    : 7%;
+    height   : 7%;
+    min-width: 37px;
+}
+
+.testimonials {
+    margin-top   : 70px;
+    margin-bottom: 40px;
+}
+
+.tester-img {
+    margin-bottom: 10px;
+}
+
+.links-footer {
+    justify-content: center;
+    margin-bottom  : 50px;
+    margin-top     : 30px;
+}
+
+.our-links-icon {
+    height: 20px;
+}
+
+.small-logo {
+    height: 19px;
+}
+
+.privacy-policy {
+    margin-left : 10px;
+    margin-right: 20px;
 }
