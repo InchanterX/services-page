@@ -365,6 +365,7 @@ html {
 
     .how-we-work-discription {
         line-height: 1.25;
+        margin-left: 0;
     }
 
     .person-about-block {
@@ -421,7 +422,7 @@ html {
     }
 
     .text-head {
-        font-size: 45px;
+        font-size: 35px;
     }
 
 }
@@ -443,7 +444,7 @@ html {
     }
 
     .persom-name {
-        font-size  : 14 px;
+        font-size  : 16px;
         font-weight: 600;
     }
 }
@@ -470,4 +471,51 @@ hr {
     border       : solid #f8f9fa 1px;
     box-shadow   : 1px 3px #eceff1;
     margin-bottom: 30px;
+}
+
+@media (max-width: 562px) {
+    .services-description {
+        width: 70%;
+    }
+
+    .list-icon-img {
+        display       : inline;
+        vertical-align: middle;
+        text-align    : center;
+    }
+}
+
+@media (max-width: 500px) {
+    .text-discription {
+        font-size: 22px;
+    }
+
+    .text-text {
+        font-size: 14px;
+    }
+
+    .list-item {
+        width: 90%;
+    }
+
+    .how-we-work-head {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 564px) {
+    .services-description {
+        font-size     : 20px;
+        margin-bottom : 0;
+        margin-top    : 0;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 360px) {
+    .list-icon-img {
+        max-width: 76px;
+        width    : 20%;
+        min-width: 50px;
+    }
 }
