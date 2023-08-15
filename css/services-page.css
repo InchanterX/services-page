@@ -1,3 +1,21 @@
+:root {
+    --green      : #1d9d73;
+    --ligth-green: #1FA87A;
+    --grey       : #888;
+    --light-black: #333;
+    --white      : #fff;
+    --margin5    : 5px;
+    --margin10   : 10px;
+    --margin16   : 16px;
+    --margin20   : 20px;
+    --margin25   : 25px;
+    --margin30   : 30px;
+}
+
+html {
+    font-size: 10px;
+}
+
 .row {
     display  : flex;
     flex-wrap: wrap;
@@ -18,7 +36,7 @@ body {
 }
 
 .header {
-    background-color: #fff;
+    background-color: var(--white);
     padding         : 5px 0;
 }
 
@@ -35,26 +53,26 @@ body {
 }
 
 .name {
-    font-size    : 37px;
+    font-size    : 3.7rem;
     margin-top   : auto;
     margin-bottom: auto;
 }
 
 .subname {
-    margin-left  : 5px;
+    margin-left  : var(--margin5);
     margin-top   : 67px;
-    font-size    : 14px;
+    font-size    : 1.4rem;
     margin-top   : auto;
     margin-bottom: auto;
 }
 
 .navigation {
-    margin-left: 20px;
-    font-size  : 20px;
+    margin-left: var(--margin20);
+    font-size  : 2rem;
 }
 
 .pointer {
-    font-size: 20px;
+    font-size: 2rem;
     color    : #53B495;
 }
 
@@ -63,30 +81,30 @@ body {
 }
 
 .text-head {
-    font-size    : 55px;
-    color        : #333;
-    margin-bottom: 30px;
+    font-size    : 5.5rem;
+    color        : var(--light-black);
+    margin-bottom: var(--margin30);
 }
 
 .text-discription {
-    font-size    : 26px;
-    color        : #1d9d73;
-    margin-bottom: 25px;
+    font-size    : 2.6rem;
+    color        : var(--green);
+    margin-bottom: var(--margin25);
 }
 
 .text-text {
-    font-size: 18px;
-    color    : #888;
+    font-size: 1.8rem;
+    color    : var(--grey);
 }
 
 .services-description {
-    font-size: 26px;
-    color    : #333;
+    font-size: 2.6rem;
+    color    : var(--light-black);
 }
 
 .services-text {
-    font-size: 14px;
-    color    : #888;
+    font-size: 1.4rem;
+    color    : var(--grey);
 }
 
 .services {
@@ -97,8 +115,8 @@ body {
 .container,
 .header,
 .footer {
-    margin-right: 20px;
-    margin-left : 20px;
+    margin-right: var(--margin20);
+    margin-left : var(--margin20);
 }
 
 .last {
@@ -118,8 +136,8 @@ body {
 }
 
 .services-description {
-    margin-top   : 15px;
-    margin-bottom: 15px;
+    margin-top   : var(--margin15);
+    margin-bottom: var(--margin15);
 }
 
 .container {
@@ -132,16 +150,16 @@ body {
 }
 
 .how-we-work-head {
-    font-size    : 55px;
-    color        : #fff;
+    font-size    : 5.5rem;
+    color        : var(--white);
     text-align   : center;
     margin-bottom: 40px;
 }
 
 .how-we-work-discription {
-    font-size  : 25px;
-    color      : #1d9d73;
-    margin-left: 10px;
+    font-size  : 2.5rem;
+    color      : var(--green);
+    margin-left: var(--margin10);
 }
 
 .how-we-work-discription::before {
@@ -149,29 +167,29 @@ body {
 }
 
 .how-we-work-text {
-    font-size    : 14px;
-    color        : #888;
-    margin-top   : 14px;
-    margin-bottom: 32px;
+    font-size    : 1.4rem;
+    color        : var(--grey);
+    margin-top   : var(--margin15);
+    margin-bottom: var(--margin30);
 }
 
 .mark-texts-1 {
     width       : calc(80% / 2 - 30px);
-    margin-right: 30px;
+    margin-right: var(--margin30);
 }
 
 .mark-texts-2 {
     width      : calc(70% / 2 - 30px);
-    margin-left: 30px;
+    margin-left: var(--margin30);
 }
 
 .picture-background {
-    background-image: url(../imgs/services-page.png);
-    margin-left     : 0px;
-    margin-right    : 0px;
-    padding-top     : 70px;
-    padding-bottom  : 60px;
-    margin-top      : 40px;
+    background    : url(../imgs/services-page.png) no-repeat center;
+    margin-left   : 0px;
+    margin-right  : 0px;
+    padding-top   : 70px;
+    padding-bottom: 60px;
+    margin-top    : 40px;
 }
 
 .container-how-we-work {
@@ -184,24 +202,24 @@ body {
 }
 
 .person-text {
-    font-size    : 14px;
-    color        : #888;
-    margin-bottom: 16px;
+    font-size    : 1.4rem;
+    color        : var(--grey);
+    margin-bottom: var(--margin16);
 }
 
 .person-text::before {
     content     : url(../imgs/quotes.png);
-    margin-right: 10px;
+    margin-right: var(--margin10);
 }
 
 .persom-name {
-    font-size: 20px;
-    color    : #333;
+    font-size: 2.0rem;
+    color    : var(--light-black);
 }
 
 .person-job {
-    font-size: 15px;
-    color    : #1FA87A;
+    font-size: 1.5rem;
+    color    : var(--ligth-green);
 }
 
 .tester-block {
@@ -230,13 +248,13 @@ html {
 }
 
 .tester-img {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin10);
 }
 
 .links-footer {
     justify-content: center;
     margin-bottom  : 50px;
-    margin-top     : 30px;
+    margin-top     : var(--margin30);
 }
 
 .our-links-icon {
@@ -248,8 +266,8 @@ html {
 }
 
 .privacy-policy {
-    margin-left : 10px;
-    margin-right: 20px;
+    margin-left : var(--margin10);
+    margin-right: var(--margin20);
 }
 
 .logo {
@@ -392,7 +410,7 @@ html {
         width: 100%;
     }
 
-    ..tester-block {
+    .tester-block {
         width: 100%;
     }
 
@@ -408,7 +426,7 @@ html {
     }
 
     .testimonials {
-        font-size: 40px;
+        font-size: 4rem;
     }
 }
 
@@ -418,11 +436,11 @@ html {
     }
 
     .how-we-work-head {
-        font-size: 45px;
+        font-size: 4.5rem;
     }
 
     .text-head {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
 
 }
@@ -444,7 +462,7 @@ html {
     }
 
     .persom-name {
-        font-size  : 16px;
+        font-size  : 1.6rem;
         font-weight: 600;
     }
 }
@@ -464,13 +482,13 @@ html {
 .person-job {
     margin-top   : auto;
     margin-bottom: auto;
-    margin-left  : 10px;
+    margin-left  : var(--margin10);
 }
 
 hr {
     border       : solid #f8f9fa 1px;
     box-shadow   : 1px 3px #eceff1;
-    margin-bottom: 30px;
+    margin-bottom: var(--margin30);
 }
 
 @media (max-width: 562px) {
@@ -487,11 +505,11 @@ hr {
 
 @media (max-width: 500px) {
     .text-discription {
-        font-size: 22px;
+        font-size: 2.2rem;
     }
 
     .text-text {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 
     .list-item {
@@ -499,13 +517,13 @@ hr {
     }
 
     .how-we-work-head {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
 }
 
 @media (max-width: 564px) {
     .services-description {
-        font-size     : 20px;
+        font-size     : 2rem;
         margin-bottom : 0;
         margin-top    : 0;
         vertical-align: middle;
